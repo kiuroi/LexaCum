@@ -1,4 +1,4 @@
-body {
+nobody {
     background-color: #FFFFFF;
     font-family: 'Montserrat', sans-serif;
     text-align: center;
@@ -43,3 +43,8 @@ p {
         visibility: visible;
     }
 }
+
+cd path/to/your/repository
+git add .
+git commit -m "Añadir fondo de estrellas azules y estilos"
+git push origin main
