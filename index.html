@@ -12,9 +12,22 @@
         <canvas id="confetti-canvas"></canvas>
     </div>
     <h1>¡Feliz Cumpleaños, Lexa <33!</h1>
-</head>
-<body>
-    <h1>
+    <iframe src="https://open.spotify.com/embed/track/5PgQUWkGftLINO7KkFytlO" class="spotify-player" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+    <p>hola</p>
+    <img id="gif" src="URL_DEL_GIF" alt="GIF de cumpleaños">
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.4.0/dist/confetti.browser.min.js"></script>
+    <script>
+        var myConfetti = confetti.create(document.getElementById('confetti-canvas'), {
+          resize: true,
+          useWorker: true
+        });
+        myConfetti({
+          particleCount: 100,
+          spread: 160
+        });
+    </script>
+</body>
+</html>
        
 
         body {
