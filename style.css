@@ -35,7 +35,7 @@ p {
 
 #gif {
     margin-top: 20px;
-    animation: playGif infinite 1s steps(1);
+    animation: playGif infinite 3s steps(1);
 }
 
 @keyframes playGif {
