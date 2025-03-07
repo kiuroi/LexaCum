@@ -44,7 +44,7 @@ p {
     }
 }
 
-cd path/to/your/repository
+cd path/main
 git add .
 git commit -m "Añadir fondo de estrellas azules y estilos"
 git push origin main
