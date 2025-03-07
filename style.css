@@ -27,13 +27,6 @@ p {
     overflow: hidden;
 }
 
-.titulo-gif {
-    width: 30px;  /* Ajusta el tamaño del GIF */
-    height: auto;
-    vertical-align: middle;  /* Alinea verticalmente el GIF con el texto */
-    margin-left: 10px;  /* Espacio entre el título y el GIF */
-}
-
 .spotify-player {
     width: 80%;
     height: 80px;
