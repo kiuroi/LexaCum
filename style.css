@@ -48,3 +48,7 @@ cd path/main
 git add .
 git commit -m "Añadir fondo de estrellas azules y estilos"
 git push origin main
+
+git add style.css
+git commit -m "Hacer que el GIF se reproduzca en bucle infinito"
+git push origin main
