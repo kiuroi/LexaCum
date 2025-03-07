@@ -35,4 +35,11 @@ p {
 
 #gif {
     margin-top: 20px;
+    animation: playGif infinite 1s steps(1);
+}
+
+@keyframes playGif {
+    100% {
+        visibility: visible;
+    }
 }
